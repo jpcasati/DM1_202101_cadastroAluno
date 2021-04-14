@@ -40,7 +40,8 @@
         android:text="Finalizar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/swtMatriculado" />
+        app:layout_constraintTop_toBottomOf="@+id/swtMatriculado"
+        android:backgroundTint="@color/colorButtons"/>
 
     <Switch
         android:id="@+id/swtMatriculado"
